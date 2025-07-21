@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/headphones-website/static/css/main.f855e6bc.css",
+    "main.js": "/headphones-website/static/js/main.2c46e64e.js",
+    "index.html": "/headphones-website/index.html",
+    "main.f855e6bc.css.map": "/headphones-website/static/css/main.f855e6bc.css.map",
+    "main.2c46e64e.js.map": "/headphones-website/static/js/main.2c46e64e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.2c46e64e.js"
+  ]
+}
