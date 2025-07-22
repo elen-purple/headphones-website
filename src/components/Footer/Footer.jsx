@@ -1,3 +1,7 @@
+import logo from "../../icons/logo.svg";
+import discord from "../../icons/discord.svg";
+import x from "../../icons/x.svg";
+import meta from "../../icons/meta.svg";
 import { Button } from "../Button/Button";
 export const Footer = () => {
   return (
@@ -14,17 +18,33 @@ export const Footer = () => {
       </div>
       <hr />
       <div>
-        <a href="#">{/* Logo */}</a>
+        <a href="#">
+          <svg width="139" height="26">
+            <use href={logo}></use>
+          </svg>
+        </a>
         <p>© 2025 Resonance. All rights reserved.</p>
         <ul>
           <li>
-            <a href="#">{/* Media */}</a>
+            <a href="#">
+              <svg width="26" height="26">
+                <use href={discord}></use>
+              </svg>
+            </a>
           </li>
           <li>
-            <a href="#">{/* Media */}</a>
+            <a href="#">
+              <svg width="26" height="26">
+                <use href={x}></use>
+              </svg>
+            </a>
           </li>
           <li>
-            <a href="#">{/* Media */}</a>
+            <a href="#">
+              <svg width="26" height="26">
+                <use href={meta}></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
