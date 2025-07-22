@@ -1,13 +1,49 @@
 {
   "files": {
     "main.css": "/headphones-website/static/css/main.f855e6bc.css",
-    "main.js": "/headphones-website/static/js/main.2c46e64e.js",
+    "main.js": "/headphones-website/static/js/main.ce9e2ad3.js",
+    "static/media/headphone@desktop.webp": "/headphones-website/static/media/headphone@desktop.426e7aaaffd943e3e49f.webp",
+    "static/media/benefit-2@desktop.webp": "/headphones-website/static/media/benefit-2@desktop.5892d2da6af16c2972d0.webp",
+    "static/media/detail-3@desktop.webp": "/headphones-website/static/media/detail-3@desktop.779ded22c406d5b193b2.webp",
+    "static/media/red@desktop.webp": "/headphones-website/static/media/red@desktop.1f7644eb96bae5faaf16.webp",
+    "static/media/purple@desktop.webp": "/headphones-website/static/media/purple@desktop.fdbcf3cec7343d19c4a1.webp",
+    "static/media/blue@desktop.webp": "/headphones-website/static/media/blue@desktop.c791ef79c37e7e0d5f7e.webp",
+    "static/media/yellow@desktop.webp": "/headphones-website/static/media/yellow@desktop.2b839208dc6806a62afe.webp",
+    "static/media/green@desktop.webp": "/headphones-website/static/media/green@desktop.3b789ab2f37e5630c916.webp",
+    "static/media/detail-4@desktop.webp": "/headphones-website/static/media/detail-4@desktop.d979a41e64d7091d4822.webp",
+    "static/media/white@desktop.webp": "/headphones-website/static/media/white@desktop.93477b6b971342814daa.webp",
+    "static/media/detail-3@mobile.webp": "/headphones-website/static/media/detail-3@mobile.700f41f215945bbf3220.webp",
+    "static/media/benefit-1@desktop.webp": "/headphones-website/static/media/benefit-1@desktop.42448f4d71c74576f6e1.webp",
+    "static/media/detail-4@mobile.webp": "/headphones-website/static/media/detail-4@mobile.07c28576aab25e5cc1d9.webp",
+    "static/media/detail-5@desktop.webp": "/headphones-website/static/media/detail-5@desktop.8dfd0f4bb0aa720b627a.webp",
+    "static/media/benefit-2@mobile.webp": "/headphones-website/static/media/benefit-2@mobile.d9fb59b76bf3fca18d58.webp",
+    "static/media/detail-2@desktop.webp": "/headphones-website/static/media/detail-2@desktop.641a7419727c5222b0d6.webp",
+    "static/media/headphone@mobile.webp": "/headphones-website/static/media/headphone@mobile.00bc312fa37429e45e66.webp",
+    "static/media/benefit-3@desktop.webp": "/headphones-website/static/media/benefit-3@desktop.ae7eda5eda0576b105a2.webp",
+    "static/media/detail-5@mobile.webp": "/headphones-website/static/media/detail-5@mobile.46c893e2ca9ed400e10f.webp",
+    "static/media/detail-2@mobile.webp": "/headphones-website/static/media/detail-2@mobile.687f5ca716c4b0baf95a.webp",
+    "static/media/red@mobile.webp": "/headphones-website/static/media/red@mobile.8a096dc54cbfbd35d0db.webp",
+    "static/media/yellow@mobile.webp": "/headphones-website/static/media/yellow@mobile.c0a10dc146a28928efab.webp",
+    "static/media/blue@mobile.webp": "/headphones-website/static/media/blue@mobile.5a007530981eb8a7f3eb.webp",
+    "static/media/purple@mobile.webp": "/headphones-website/static/media/purple@mobile.ecda401efecaa68186b9.webp",
+    "static/media/green@mobile.webp": "/headphones-website/static/media/green@mobile.86b96a7b68e913abd75a.webp",
+    "static/media/benefit-1@mobile.webp": "/headphones-website/static/media/benefit-1@mobile.a873c39814b71c001c20.webp",
+    "static/media/white@mobile.webp": "/headphones-website/static/media/white@mobile.062b2e2cbf2d90fe636d.webp",
+    "static/media/detail-6@desktop.webp": "/headphones-website/static/media/detail-6@desktop.20f9c077dbe226ed9ce7.webp",
+    "static/media/detail-1@desktop.webp": "/headphones-website/static/media/detail-1@desktop.e94cbcf485d18ac4c644.webp",
+    "static/media/benefit-3@mobile.webp": "/headphones-website/static/media/benefit-3@mobile.adb53533b8ca9a52a843.webp",
+    "static/media/logo.svg": "/headphones-website/static/media/logo.ceaf9e6e6c0350fa10f968b338a6749b.svg",
+    "static/media/detail-6@mobile.webp": "/headphones-website/static/media/detail-6@mobile.532b21eba06b83bf5803.webp",
+    "static/media/detail-1@mobile.webp": "/headphones-website/static/media/detail-1@mobile.431f1283f3a32fab60c8.webp",
+    "static/media/discord.svg": "/headphones-website/static/media/discord.ea4f4b4b1193724c2c568e9d858a9ca6.svg",
     "index.html": "/headphones-website/index.html",
+    "static/media/x.svg": "/headphones-website/static/media/x.52951d334d8668221469a8dbcc831c18.svg",
+    "static/media/meta.svg": "/headphones-website/static/media/meta.b1c3977c1b7a6919a1cde8d4ed8f2976.svg",
     "main.f855e6bc.css.map": "/headphones-website/static/css/main.f855e6bc.css.map",
-    "main.2c46e64e.js.map": "/headphones-website/static/js/main.2c46e64e.js.map"
+    "main.ce9e2ad3.js.map": "/headphones-website/static/js/main.ce9e2ad3.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.2c46e64e.js"
+    "static/js/main.ce9e2ad3.js"
   ]
 }
