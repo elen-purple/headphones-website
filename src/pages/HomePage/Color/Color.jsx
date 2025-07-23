@@ -10,71 +10,72 @@ import purplemobile from "../../../imgs/mobile/homepage/color/purple@mobile.webp
 import purpledesktop from "../../../imgs/desktop/homepage/color/purple@desktop.webp";
 import whitemobile from "../../../imgs/mobile/homepage/color/white@mobile.webp";
 import whitedesktop from "../../../imgs/desktop/homepage/color/white@desktop.webp";
+import { Container } from "../../../components/Container/Container";
+import styles from "./Color.module.scss";
 export const Color = () => {
   return (
-    <section>
-      <h2>Your Style. Your Sound.</h2>
-      <p>
-        Studio-grade acoustics that dissolve distractions and awaken clarity.
-      </p>
-      <ul>
-        <li>
-          <picture>
-            <source srcSet={yellowdesktop} media="(min-width: 1120px)" />
-            <source srcSet={yellowmobile} media="(max-width: 1119px)" />
-            <img width="420" height="420" src={yellowmobile} alt="Headphone" />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={greendesktop} media="(min-width: 1120px)" />
-            <source srcSet={greenmobile} media="(max-width: 1119px)" />
-            <img width="420" height="420" src={greenmobile} alt="Headphone" />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={reddesktop} media="(min-width: 1120px)" />
-            <source srcSet={redmobile} media="(max-width: 1119px)" />
-            <img width="420" height="420" src={redmobile} alt="Headphone" />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={bluedesktop} media="(min-width: 1120px)" />
-            <source srcSet={bluemobile} media="(max-width: 1119px)" />
-            <img width="420" height="420" src={bluemobile} alt="Headphone" />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={purpledesktop} media="(min-width: 1120px)" />
-            <source srcSet={purplemobile} media="(max-width: 1119px)" />
-            <img width="420" height="420" src={purplemobile} alt="Headphone" />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={whitedesktop} media="(min-width: 1120px)" />
-            <source srcSet={whitemobile} media="(max-width: 1119px)" />
-            <img
-              width="420"
-              height="420"
-              src={whitemobile}
-              alt="Blue headphones"
-            />
-          </picture>
-        </li>
-      </ul>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <p>Choose a color that fits your flow.</p>
+    <section className={styles.color}>
+      <Container>
+        <h2 className={styles.color__title}>Your Style. Your Sound.</h2>
+        <p className={styles.color__desc}>
+          Studio-grade acoustics that dissolve distractions and awaken clarity.
+        </p>
+        <ul className={styles.color__list}>
+          <li className={styles.color__item}>
+            <picture>
+              <source srcSet={yellowdesktop} media="(min-width: 1120px)" />
+              <source srcSet={yellowmobile} media="(max-width: 1119px)" />
+              <img
+                className={styles.color__img}
+                width="420"
+                height="420"
+                src={yellowmobile}
+                alt="Headphone"
+              />
+            </picture>
+          </li>
+          <li className={styles.color__item}>
+            <picture>
+              <source srcSet={greendesktop} media="(min-width: 1120px)" />
+              <source srcSet={greenmobile} media="(max-width: 1119px)" />
+              <img
+                className={styles.color__img}
+                width="420"
+                height="420"
+                src={greenmobile}
+                alt="Headphone"
+              />
+            </picture>
+          </li>
+          <li className={styles.color__item}>
+            <picture>
+              <source srcSet={reddesktop} media="(min-width: 1120px)" />
+              <source srcSet={redmobile} media="(max-width: 1119px)" />
+              <img
+                className={styles.color__img}
+                width="420"
+                height="420"
+                src={redmobile}
+                alt="Headphone"
+              />
+            </picture>
+          </li>
+        </ul>
+        <ul className={styles.color__dots}>
+          <li className={styles.color__dot}>
+            <button className={styles.color__btn}></button>
+          </li>
+          <li className={styles.color__dot}>
+            <button className={styles.color__btn}></button>
+          </li>
+          <li className={styles.color__dot}>
+            <button className={styles.color__btn}></button>
+          </li>
+        </ul>
+        <p className={styles.color__choose}>
+          Choose a color that fits your flow.
+        </p>
+      </Container>
     </section>
   );
 };

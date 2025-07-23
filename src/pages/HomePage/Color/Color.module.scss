@@ -1,0 +1,133 @@
+@import "../../../sass/utils/vars.scss";
+
+.color {
+    overflow: hidden;
+    padding: 42px 0;
+
+    @media screen and (min-width: 1280px) {
+        padding: 80px 0;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 1.42857;
+        text-transform: capitalize;
+        text-align: center;
+        color: $first-color;
+        margin-bottom: 16px;
+
+        @media screen and (min-width: 1280px) {
+            font-size: 56px;
+        }
+    }
+
+    &__desc {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: $second-color;
+        margin-bottom: 24px;
+
+        @media screen and (min-width: 1280px) {
+            font-size: 24px;
+        }
+    }
+
+    &__list {
+        margin-left: -24px;
+        margin-bottom: 24px;
+
+        @media screen and (min-width: 1280px) {
+            display: flex;
+            align-items: center;
+            margin-left: -190px;
+        }
+    }
+
+    &__item {
+        min-width: 420px;
+
+        &:nth-child(1) {
+            display: none;
+        }
+
+
+        &:nth-child(3) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1280px) {
+            &:nth-child(1) {
+                display: block;
+            }
+
+            &:nth-child(2) {
+                min-width: 660px;
+            }
+
+            &:nth-child(3) {
+                display: block;
+            }
+        }
+    }
+
+    &__item:nth-child(1) &__img {
+        display: block;
+        filter: blur(5px);
+    }
+
+
+    &__item:nth-child(3) &__img {
+        display: block;
+        filter: blur(5px);
+    }
+
+    &__dots {
+        display: flex;
+        gap: 27px;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (min-width: 1280px) {
+            gap: 40px;
+        }
+    }
+
+    &__btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 60px;
+
+
+        @media screen and (min-width: 1280px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    &__dot:nth-child(1) &__btn {
+        background-color: $yellow;
+    }
+
+    &__dot:nth-child(2) &__btn {
+        background-color: $green;
+        border: 2px solid $first-color;
+    }
+
+    &__dot:nth-child(3) &__btn {
+        background-color: $red;
+    }
+
+    &__choose {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: $second-color;
+        margin-top: 32px;
+
+        @media screen and (min-width: 1280px) {
+            font-size: 24px;
+        }
+    }
+}
