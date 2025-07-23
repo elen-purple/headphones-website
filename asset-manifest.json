@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/headphones-website/static/css/main.f855e6bc.css",
-    "main.js": "/headphones-website/static/js/main.ce9e2ad3.js",
+    "main.css": "/headphones-website/static/css/main.8dd823c2.css",
+    "main.js": "/headphones-website/static/js/main.6fe9cc3d.js",
     "static/media/headphone@desktop.webp": "/headphones-website/static/media/headphone@desktop.426e7aaaffd943e3e49f.webp",
     "static/media/benefit-2@desktop.webp": "/headphones-website/static/media/benefit-2@desktop.5892d2da6af16c2972d0.webp",
     "static/media/detail-3@desktop.webp": "/headphones-website/static/media/detail-3@desktop.779ded22c406d5b193b2.webp",
@@ -39,11 +39,12 @@
     "index.html": "/headphones-website/index.html",
     "static/media/x.svg": "/headphones-website/static/media/x.52951d334d8668221469a8dbcc831c18.svg",
     "static/media/meta.svg": "/headphones-website/static/media/meta.b1c3977c1b7a6919a1cde8d4ed8f2976.svg",
-    "main.f855e6bc.css.map": "/headphones-website/static/css/main.f855e6bc.css.map",
-    "main.ce9e2ad3.js.map": "/headphones-website/static/js/main.ce9e2ad3.js.map"
+    "static/media/burger.svg": "/headphones-website/static/media/burger.48abe133d69d980e8ebcc7f63e1e591b.svg",
+    "main.8dd823c2.css.map": "/headphones-website/static/css/main.8dd823c2.css.map",
+    "main.6fe9cc3d.js.map": "/headphones-website/static/js/main.6fe9cc3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ce9e2ad3.js"
+    "static/css/main.8dd823c2.css",
+    "static/js/main.6fe9cc3d.js"
   ]
 }
