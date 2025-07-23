@@ -23,8 +23,8 @@ export const Color = () => {
         <ul className={styles.color__list}>
           <li className={styles.color__item}>
             <picture>
-              <source srcSet={yellowdesktop} media="(min-width: 1120px)" />
-              <source srcSet={yellowmobile} media="(max-width: 1119px)" />
+              <source srcSet={yellowdesktop} media="(min-width: 1280px)" />
+              <source srcSet={yellowmobile} media="(max-width: 1279px)" />
               <img
                 className={styles.color__img}
                 width="420"
@@ -36,8 +36,8 @@ export const Color = () => {
           </li>
           <li className={styles.color__item}>
             <picture>
-              <source srcSet={greendesktop} media="(min-width: 1120px)" />
-              <source srcSet={greenmobile} media="(max-width: 1119px)" />
+              <source srcSet={greendesktop} media="(min-width: 1280px)" />
+              <source srcSet={greenmobile} media="(max-width: 1279px)" />
               <img
                 className={styles.color__img}
                 width="420"
@@ -49,8 +49,8 @@ export const Color = () => {
           </li>
           <li className={styles.color__item}>
             <picture>
-              <source srcSet={reddesktop} media="(min-width: 1120px)" />
-              <source srcSet={redmobile} media="(max-width: 1119px)" />
+              <source srcSet={reddesktop} media="(min-width: 1280px)" />
+              <source srcSet={redmobile} media="(max-width: 1279px)" />
               <img
                 className={styles.color__img}
                 width="420"

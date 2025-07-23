@@ -9,8 +9,8 @@ export const Hero = () => {
         <h1 className={styles.hero__title}>Resonance</h1>
         <h2 className={styles.hero__subtitle}>Aura Pro II</h2>
         <picture>
-          <source srcSet={imgdesktop} media="(min-width: 1120px)" />
-          <source srcSet={imgmobile} media="(max-width: 1119px)" />
+          <source srcSet={imgdesktop} media="(min-width: 1280px)" />
+          <source srcSet={imgmobile} media="(max-width: 1279px)" />
           <img
             className={styles.hero__img}
             width="420"

@@ -10,85 +10,89 @@ import detail5mobile from "../../../imgs/mobile/homepage/details/detail-5@mobile
 import detail5desktop from "../../../imgs/desktop/homepage/details/detail-5@desktop.webp";
 import detail6mobile from "../../../imgs/mobile/homepage/details/detail-6@mobile.webp";
 import detail6desktop from "../../../imgs/desktop/homepage/details/detail-6@desktop.webp";
+import styles from "./Detail.module.scss";
+import { Container } from "../../../components/Container/Container";
 export const Details = () => {
   return (
     <section>
-      <h2>Every Detail matters</h2>
-      <p>From the stitch to the signal, precision lives here.</p>
-      <ul>
-        <li>
-          <picture>
-            <source srcSet={detail1desktop} media="(min-width: 1120px)" />
-            <source srcSet={detail1mobile} media="(max-width: 1119px)" />
-            <img
-              width="420"
-              height="420"
-              src={detail1mobile}
-              alt="Headphones"
-            />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={detail2desktop} media="(min-width: 1120px)" />
-            <source srcSet={detail2mobile} media="(max-width: 1119px)" />
-            <img
-              width="420"
-              height="420"
-              src={detail2mobile}
-              alt="Headphones"
-            />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={detail3desktop} media="(min-width: 1120px)" />
-            <source srcSet={detail3mobile} media="(max-width: 1119px)" />
-            <img
-              width="420"
-              height="420"
-              src={detail3mobile}
-              alt="Headphones"
-            />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={detail4desktop} media="(min-width: 1120px)" />
-            <source srcSet={detail4mobile} media="(max-width: 1119px)" />
-            <img
-              width="420"
-              height="420"
-              src={detail4mobile}
-              alt="Headphones"
-            />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={detail5desktop} media="(min-width: 1120px)" />
-            <source srcSet={detail5mobile} media="(max-width: 1119px)" />
-            <img
-              width="420"
-              height="420"
-              src={detail5mobile}
-              alt="Headphones"
-            />
-          </picture>
-        </li>
-        <li>
-          <picture>
-            <source srcSet={detail6desktop} media="(min-width: 1120px)" />
-            <source srcSet={detail6mobile} media="(max-width: 1119px)" />
-            <img
-              width="420"
-              height="420"
-              src={detail6mobile}
-              alt="Headphones"
-            />
-          </picture>
-        </li>
-      </ul>
+      <Container>
+        <h2>Every Detail matters</h2>
+        <p>From the stitch to the signal, precision lives here.</p>
+        <ul>
+          <li>
+            <picture>
+              <source srcSet={detail1desktop} media="(min-width: 1280px)" />
+              <source srcSet={detail1mobile} media="(max-width: 1279px)" />
+              <img
+                width="420"
+                height="420"
+                src={detail1mobile}
+                alt="Headphones"
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source srcSet={detail2desktop} media="(min-width: 1280px)" />
+              <source srcSet={detail2mobile} media="(max-width: 1279px)" />
+              <img
+                width="420"
+                height="420"
+                src={detail2mobile}
+                alt="Headphones"
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source srcSet={detail3desktop} media="(min-width: 1280px)" />
+              <source srcSet={detail3mobile} media="(max-width: 1279px)" />
+              <img
+                width="420"
+                height="420"
+                src={detail3mobile}
+                alt="Headphones"
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source srcSet={detail4desktop} media="(min-width: 1280px)" />
+              <source srcSet={detail4mobile} media="(max-width: 1279px)" />
+              <img
+                width="420"
+                height="420"
+                src={detail4mobile}
+                alt="Headphones"
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source srcSet={detail5desktop} media="(min-width: 1280px)" />
+              <source srcSet={detail5mobile} media="(max-width: 1279px)" />
+              <img
+                width="420"
+                height="420"
+                src={detail5mobile}
+                alt="Headphones"
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source srcSet={detail6desktop} media="(min-width: 1280px)" />
+              <source srcSet={detail6mobile} media="(max-width: 1279px)" />
+              <img
+                width="420"
+                height="420"
+                src={detail6mobile}
+                alt="Headphones"
+              />
+            </picture>
+          </li>
+        </ul>
+      </Container>
     </section>
   );
 };
