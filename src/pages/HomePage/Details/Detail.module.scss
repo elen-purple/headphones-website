@@ -1,0 +1,54 @@
+@import "../../../sass/utils/vars.scss";
+
+.details {
+    padding: 42px 0 80px;
+    overflow: hidden;
+
+    @media screen and (min-width: 1280px) {
+        padding: 80px 0 160px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 42px;
+        text-transform: capitalize;
+        text-align: center;
+        color: $first-color;
+        margin-bottom: 16px;
+
+        @media screen and (min-width: 1280px) {
+            font-size: 56px;
+        }
+    }
+
+    &__desc {
+        font-weight: 400;
+        font-size: 18px;
+        color: $second-color;
+        margin-bottom: 80px;
+        text-align: center;
+
+        @media screen and (min-width: 1280px) {
+            font-size: 24px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    &__item {
+        border-radius: 23px;
+        min-width: 340px;
+        height: 340px;
+        overflow: hidden;
+
+        @media screen and (min-width: 1280px) {
+            border-radius: 27px;
+            min-width: 386px;
+            height: 386px;
+        }
+    }
+}

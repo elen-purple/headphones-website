@@ -14,12 +14,14 @@ import styles from "./Detail.module.scss";
 import { Container } from "../../../components/Container/Container";
 export const Details = () => {
   return (
-    <section>
+    <section className={styles.details}>
       <Container>
-        <h2>Every Detail matters</h2>
-        <p>From the stitch to the signal, precision lives here.</p>
-        <ul>
-          <li>
+        <h2 className={styles.details__title}>Every Detail matters</h2>
+        <p className={styles.details__desc}>
+          From the stitch to the signal, precision lives here.
+        </p>
+        <ul className={styles.details__list}>
+          <li className={styles.details__item}>
             <picture>
               <source srcSet={detail1desktop} media="(min-width: 1280px)" />
               <source srcSet={detail1mobile} media="(max-width: 1279px)" />
@@ -31,7 +33,7 @@ export const Details = () => {
               />
             </picture>
           </li>
-          <li>
+          <li className={styles.details__item}>
             <picture>
               <source srcSet={detail2desktop} media="(min-width: 1280px)" />
               <source srcSet={detail2mobile} media="(max-width: 1279px)" />
@@ -43,7 +45,7 @@ export const Details = () => {
               />
             </picture>
           </li>
-          <li>
+          <li className={styles.details__item}>
             <picture>
               <source srcSet={detail3desktop} media="(min-width: 1280px)" />
               <source srcSet={detail3mobile} media="(max-width: 1279px)" />
@@ -55,7 +57,7 @@ export const Details = () => {
               />
             </picture>
           </li>
-          <li>
+          <li className={styles.details__item}>
             <picture>
               <source srcSet={detail4desktop} media="(min-width: 1280px)" />
               <source srcSet={detail4mobile} media="(max-width: 1279px)" />
@@ -67,7 +69,7 @@ export const Details = () => {
               />
             </picture>
           </li>
-          <li>
+          <li className={styles.details__item}>
             <picture>
               <source srcSet={detail5desktop} media="(min-width: 1280px)" />
               <source srcSet={detail5mobile} media="(max-width: 1279px)" />
@@ -79,7 +81,7 @@ export const Details = () => {
               />
             </picture>
           </li>
-          <li>
+          <li className={styles.details__item}>
             <picture>
               <source srcSet={detail6desktop} media="(min-width: 1280px)" />
               <source srcSet={detail6mobile} media="(max-width: 1279px)" />
