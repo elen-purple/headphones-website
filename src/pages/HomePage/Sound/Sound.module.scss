@@ -1,0 +1,42 @@
+@import "../../../sass/utils/vars.scss";
+
+.sound {
+    padding: 42px 0 437px;
+    background-image: url(../../../imgs/mobile/homepage/sound/sound@mobile.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (min-width: 1280px) {
+        padding: 80px 0 566px;
+        background-image: url(../../../imgs/desktop/homepage/sound/sound@desktop.webp);
+    }
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 1.33333;
+        text-align: center;
+        color: $dark-btn-text;
+        margin-bottom: 24px;
+
+        @media screen and (min-width: 1280px) {
+            font-size: 86px;
+            line-height: 1.39535;
+        }
+    }
+
+    &__desc {
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        color: $dark-btn-text;
+        margin-bottom: 24px;
+    }
+}
