@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+*::selection {
+  background-color: #52483e;
+  color: #ffffff;
+}
+
 *:focus {
   outline: none;
 }
